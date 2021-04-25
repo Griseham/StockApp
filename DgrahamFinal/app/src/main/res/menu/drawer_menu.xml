@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    >
+
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_homee"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"/>
+        <item android:id="@+id/nav_myCoins"
+            android:icon="@drawable/ic_icons8_bitcoin"
+            android:title="My Coins"/>
+        <item android:id="@+id/nav_myStocks"
+            android:icon="@drawable/ic_icons_stock"
+            android:title="My Stocks"/>
+
+
+    </group>
+
+
+
+</menu>
+
